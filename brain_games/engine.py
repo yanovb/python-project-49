@@ -11,6 +11,7 @@ def engine(rules, qs_and_as):
         ua = prompt.string('Your answer: ')
         if ua != q_a[1]:
             print(f'"{ua}" is wrong answer ;(. Correct answer was "{q_a[1]}".')
+            print(f"Let's try again, {name}!")
             return
         else:
             print('Correct!')
